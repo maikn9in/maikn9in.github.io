@@ -5,6 +5,7 @@ body{
   display: flex;
   justify-content: center;
   color:#303030;
+  cursor: url('images/cursor.png'), auto;
 }
 .todo footer img{
   width: 12%;
