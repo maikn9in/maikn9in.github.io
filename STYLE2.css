@@ -60,6 +60,7 @@ footer h2{
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   padding: 10px 20px;
   min-width: 75px;
+  transition: transform 0.2s ease;
 }
 .navbar li ul {
   display: none;
@@ -74,6 +75,9 @@ footer h2{
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   z-index: 10;
   min-width: 150px;
+}
+.navbar li:hover{
+  transform: scale(1.1);
 }
 .navbar li:hover ul {
   display: block;
@@ -144,6 +148,10 @@ section, sec1, sec2 {
   height: auto;
   border-radius: 24px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.Imgpoli img:hover{
+  transform: scale(1.1);
 }
 .Txtpoli {
   flex: 1;
@@ -160,6 +168,10 @@ section, sec1, sec2 {
 }
 .Imgflor img {
     width: 29%;
+  transition: transform 0.2s ease;
+}
+.Imgflor img:hover{
+  transform: scale(1.1);
 }
 #ocurre,#flor,#tipos{
   color:#DFC346;
