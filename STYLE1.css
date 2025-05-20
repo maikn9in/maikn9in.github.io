@@ -212,22 +212,6 @@ h2{
     text-align: center;
     padding: 9px;
   }
-  .navbar li ul {
-  position: static;
-  display: block !important;
-  background: inherit;
-  box-shadow: none;
-  padding: 0;
-  margin: 10px 0 0;
-  }
-  .navbar li:hover ul {
-  display: block;
-  }
-  .navbar li ul li {
-  margin: 5px 0;
-  width: 100%;
-  background: inherit;
-  }
   #sec1, #sec2, #secV {
     width: 100%;
     padding: 10px;
